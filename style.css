@@ -297,3 +297,98 @@ footer-style-start
 /*----------------------
 footer-style-end
 ------------------------*/
+
+
+
+
+/* germany vs france blog start */
+
+
+.blog-first-row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1321px;
+}
+
+.germany-france-img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
+
+}
+
+.germany-france-img img{
+    width: 93px;
+    height: 55px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.vs{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.germany-france-transfer-descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    margin-top: 0%;
+    padding-top: 0%;
+
+}
+
+.match-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0%;
+    padding-top: 0%;
+   
+}
+
+.germany-france-transfer-descrip p{
+    margin-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 20px;
+}
+
+
+.germany-france-blog {
+    width: 312px;
+    height: 250px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* padding-bottom: 60px; */
+}
+
+
+
+/* -----second-row-----start */
+
+.blog-second-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 990px;
+}
+
+
+.germany-france-second-row{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 300px;
+}
+
+/* -----second-row-----end */
+
+/* germany vs france blog end */
