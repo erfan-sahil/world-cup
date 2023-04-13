@@ -7,6 +7,44 @@
 top-banner-style-start
 ----------------------*/
 
+/* ------------
+special style
+--------------------- */
+#upcomming-matches-bg{
+    height: 64px;
+    width: 252px;
+    background-color:rgb(126, 19, 87);
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#blog-normal-bg{
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+/* ------------
+special style
+--------------------- */
+
 body{
     font-family: 'Bebas Neue', cursive;
 font-family: 'Libre Baskerville', serif;
@@ -392,3 +430,11 @@ footer-style-end
 /* -----second-row-----end */
 
 /* germany vs france blog end */
+
+
+
+/* media-query-start */
+
+
+
+/* media-query-end */
